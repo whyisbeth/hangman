@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 60px 10%;
+    width: 100%;
+}
+
+.sm {
+    font-size: 0.8em;
+}
+
+.left {
+    float: left;
+}
+
+.red {
+    color: red;
+}
+
+ul {
+    list-style: none;
+    overflow: auto;
+    padding: 0;
+}
+    li {
+        float: left;
+    }
+
+form {
+    margin: 40px 0 0 0;
+    clear: both;
+}
+
+    input {
+        padding: 4px;
+        border-radius: 2px;
+        font-size: 1.2em;
+    }
+    
+    input[type=text]{
+        border: solid 1px #ddd;
+    }
+    
+    input[type=submit]{
+        color: #fff;
+        border: solid 1px #0d640a;
+        background-color: #62a75d;
+    }
+        input[type=submit]:hover,
+        input[type=submit]:active{
+            background-color: #4c9246;
+        }
+
+#wordToGuess {
+    font-size: 2em;
+    margin: 0 0 40px 0 ;
+}
+    #wordToGuess li {
+        float: left;
+        width: 1em;
+        margin: 0 2px 0 0;
+    }
+    
+#guessDisplay {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#wrongGuesses li {
+    font-weight: bold;
+}
